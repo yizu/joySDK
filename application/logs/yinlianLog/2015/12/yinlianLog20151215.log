@@ -1,0 +1,106 @@
+前台请求地址为>https://101.231.204.80:5000/gateway/api/frontTransReq.do
+-------前台交易自动提交表单>--begin----
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body  onload="javascript:document.pay_form.submit();">
+    <form id="pay_form" name="pay_form" action="https://101.231.204.80:5000/gateway/api/frontTransReq.do" method="post">
+	    <input type="hidden" name="version" id="version" value="5.0.0" />
+    <input type="hidden" name="encoding" id="encoding" value="utf-8" />
+    <input type="hidden" name="certId" id="certId" value="" />
+    <input type="hidden" name="txnType" id="txnType" value="01" />
+    <input type="hidden" name="txnSubType" id="txnSubType" value="01" />
+    <input type="hidden" name="bizType" id="bizType" value="000201" />
+    <input type="hidden" name="frontUrl" id="frontUrl" value="http://localhost:8085/upacp_sdk_php/demo/utf8/FrontReceive.php" />
+    <input type="hidden" name="backUrl" id="backUrl" value="http://114.82.43.123/upacp_sdk_php/demo/utf8/BackReceive.php" />
+    <input type="hidden" name="signMethod" id="signMethod" value="01" />
+    <input type="hidden" name="channelType" id="channelType" value="08" />
+    <input type="hidden" name="accessType" id="accessType" value="0" />
+    <input type="hidden" name="merId" id="merId" value="888888888888888" />
+    <input type="hidden" name="orderId" id="orderId" value="20151215121257" />
+    <input type="hidden" name="txnTime" id="txnTime" value="20151215121257" />
+    <input type="hidden" name="txnAmt" id="txnAmt" value="100" />
+    <input type="hidden" name="currencyCode" id="currencyCode" value="156" />
+    <input type="hidden" name="defaultPayType" id="defaultPayType" value="0001" />
+    <input type="hidden" name="reqReserved" id="reqReserved" value=" 透传信息" />
+    <input type="submit" type="hidden">
+    </form>
+</body>
+</html>
+-------前台交易自动提交表单>--end-------
+============处理前台请求 结束===========
+前台请求地址为>https://101.231.204.80:5000/gateway/api/frontTransReq.do
+-------前台交易自动提交表单>--begin----
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body  onload="javascript:document.pay_form.submit();">
+    <form id="pay_form" name="pay_form" action="https://101.231.204.80:5000/gateway/api/frontTransReq.do" method="post">
+	    <input type="hidden" name="version" id="version" value="5.0.0" />
+    <input type="hidden" name="encoding" id="encoding" value="utf-8" />
+    <input type="hidden" name="certId" id="certId" value="" />
+    <input type="hidden" name="txnType" id="txnType" value="01" />
+    <input type="hidden" name="txnSubType" id="txnSubType" value="01" />
+    <input type="hidden" name="bizType" id="bizType" value="000201" />
+    <input type="hidden" name="frontUrl" id="frontUrl" value="http://localhost:8085/upacp_sdk_php/demo/utf8/FrontReceive.php" />
+    <input type="hidden" name="backUrl" id="backUrl" value="http://114.82.43.123/upacp_sdk_php/demo/utf8/BackReceive.php" />
+    <input type="hidden" name="signMethod" id="signMethod" value="01" />
+    <input type="hidden" name="channelType" id="channelType" value="08" />
+    <input type="hidden" name="accessType" id="accessType" value="0" />
+    <input type="hidden" name="merId" id="merId" value="888888888888888" />
+    <input type="hidden" name="orderId" id="orderId" value="20151215121506" />
+    <input type="hidden" name="txnTime" id="txnTime" value="20151215121506" />
+    <input type="hidden" name="txnAmt" id="txnAmt" value="100" />
+    <input type="hidden" name="currencyCode" id="currencyCode" value="156" />
+    <input type="hidden" name="defaultPayType" id="defaultPayType" value="0001" />
+    <input type="hidden" name="reqReserved" id="reqReserved" value=" 透传信息" />
+    <input type="submit" type="hidden">
+    </form>
+</body>
+</html>
+-------前台交易自动提交表单>--end-------
+============处理前台请求 结束===========
+前台请求地址为>https://101.231.204.80:5000/gateway/api/frontTransReq.do
+-------前台交易自动提交表单>--begin----
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body  onload="javascript:document.pay_form.submit();">
+    <form id="pay_form" name="pay_form" action="https://101.231.204.80:5000/gateway/api/frontTransReq.do" method="post">
+	    <input type="hidden" name="version" id="version" value="5.0.0" />
+    <input type="hidden" name="encoding" id="encoding" value="utf-8" />
+    <input type="hidden" name="certId" id="certId" value="" />
+    <input type="hidden" name="txnType" id="txnType" value="01" />
+    <input type="hidden" name="txnSubType" id="txnSubType" value="01" />
+    <input type="hidden" name="bizType" id="bizType" value="000201" />
+    <input type="hidden" name="frontUrl" id="frontUrl" value="http://localhost:8085/upacp_sdk_php/demo/utf8/FrontReceive.php" />
+    <input type="hidden" name="backUrl" id="backUrl" value="http://114.82.43.123/upacp_sdk_php/demo/utf8/BackReceive.php" />
+    <input type="hidden" name="signMethod" id="signMethod" value="01" />
+    <input type="hidden" name="channelType" id="channelType" value="08" />
+    <input type="hidden" name="accessType" id="accessType" value="0" />
+    <input type="hidden" name="merId" id="merId" value="888888888888888" />
+    <input type="hidden" name="orderId" id="orderId" value="20151215121521" />
+    <input type="hidden" name="txnTime" id="txnTime" value="20151215121521" />
+    <input type="hidden" name="txnAmt" id="txnAmt" value="100" />
+    <input type="hidden" name="currencyCode" id="currencyCode" value="156" />
+    <input type="hidden" name="defaultPayType" id="defaultPayType" value="0001" />
+    <input type="hidden" name="reqReserved" id="reqReserved" value=" 透传信息" />
+    <input type="submit" type="hidden">
+    </form>
+</body>
+</html>
+-------前台交易自动提交表单>--end-------
+============处理前台请求 结束===========
+后台请求地址为>https://101.231.204.80:5000/gateway/api/appTransReq.do
+后台返回结果为>defaultPayType=0001&txnType=01&respCode=11&frontUrl=http://localhost:8085/upacp_sdk_php/demo/utf8/FrontReceive.php&channelType=08&currencyCode=156&merId=888888888888888&txnSubType=01&txnAmt=100&version=5.0.0&signMethod=01&backUrl=http://114.82.43.123/upacp_sdk_php/demo/utf8/BackReceive.php&certId=68759585097&encoding=utf-8&respMsg=[9100004]Signature verification failed&reqReserved= 透传信息&bizType=000201&signature=DBXubpKi0csjn5wIPksyPkJQWCHKLPmiEBz8ao4+PFRn1nfC4M02eWw/ypVMK6Xq/0jGnJSiSJLAFgC5GxYqnozxQc8azU2STZ/TNzU8mAvjAXvzwlLZTfJTW60nWhkjpgF+ceEeNf+vh1/Mw0fawh7Svdu0iZd56pWVIvBRf+d/FGB23A/uVIiO9ci91NUEavnSbJPz6hV6eJ4vL8gyN3axc9u6EZrb3MP/BmeY8vmYrd0ZNwO2dW7U4y/ve2Q5jxqtNtAXxSOEDfaR5g8q63XbFR0yw1M6Nugzdb3oybv5h3nV1DU60McxwQ2rEDmZuYCGnu0BJB+UWRSg8c8XZQ==&orderId=20151215122550&txnTime=20151215122550&accessType=0
+后台请求地址为>https://101.231.204.80:5000/gateway/api/appTransReq.do
+后台返回结果为>defaultPayType=0001&txnType=01&respCode=11&frontUrl=http://localhost:8085/upacp_sdk_php/demo/utf8/FrontReceive.php&channelType=08&currencyCode=156&merId=888888888888888&txnSubType=01&txnAmt=100&version=5.0.0&signMethod=01&backUrl=http://114.82.43.123/upacp_sdk_php/demo/utf8/BackReceive.php&certId=68759585097&encoding=utf-8&respMsg=[9100004]Signature verification failed&reqReserved= 透传信息&bizType=000201&signature=oGApt4J5LtKFHHJtx7DzvYoyC5T5p5lXmaLYkCH++x8ZLkacsSFp23F1GlPxsCkJVcBSD/YMrgmbbkUuRxs1gIAupcuGS60oxFA7MnR3aWyV2xpAxkDNZ6F9Wxc9zRCUMFLY+MNTActspxQ69ScIvqhlOeh5gS92KVnaWZyxwnCKEdC5SO5c2BIVkXWo2blfs8fmiM/1YOaC17FZvNhyuCh4FQwOFsfrTvD4tGN2dVqGvQQ26JLRzx3KAherMWm3kaRcuXlxz2oq6bV5W2GIbeQf3Qty50arkAifhyOEamEpmzAio64PmEABHcADcxCcKoDg6F+5FzZwl521imUbKA==&orderId=20151215122704&txnTime=20151215122704&accessType=0
+后台请求地址为>https://101.231.204.80:5000/gateway/api/appTransReq.do
+后台返回结果为>defaultPayType=0001&txnType=01&respCode=11&frontUrl=http://localhost:8085/upacp_sdk_php/demo/utf8/FrontReceive.php&channelType=08&currencyCode=156&merId=888888888888888&txnSubType=01&txnAmt=100&version=5.0.0&signMethod=01&backUrl=http://114.82.43.123/upacp_sdk_php/demo/utf8/BackReceive.php&certId=68759585097&encoding=utf-8&respMsg=[9100004]Signature verification failed&reqReserved= 透传信息&bizType=000201&signature=sokhQOTHEhmgigNldcYpZf/OV6UHFj91IaSlNoeKP8sluZ5ILDir+oOkyyoX3/U3y4d5DgGib95a0inn8GEW5FkHEKnFZueIy9EADTytbBZ3jK5/DdyLIXqRr58MnCgbXrXpm5rRXSVciwAgDWNc8VV68bwYal1e3YCgDCeWDacHoXpT9XxKZTQw8OUo4skxF8+4gqRZalh9jV5DHn+6O0g4+3Nf6rBgiaiyWDGU7zUKu44cuOb/bN44fi3gIlNmrHh+dAGglg9XyYZ5jMOpBvg+CivREJp3MHxEOqHHUtJd4Pv2So87Q71nl9f6MKroFeJnLkDJgixGk1pPklZlnQ==&orderId=20151215122810&txnTime=20151215122810&accessType=0
+后台请求地址为>https://101.231.204.80:5000/gateway/api/appTransReq.do
+后台返回结果为><html><head><title>JBoss Web/7.4.0.Final - JBWEB000064: Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>JBWEB000065: HTTP Status 400 - Invalid request.</h1><HR size="1" noshade="noshade"><p><b>JBWEB000309: type</b> JBWEB000067: Status report</p><p><b>JBWEB000068: message</b> <u>Invalid request.</u></p><p><b>JBWEB000069: description</b> <u>JBWEB000120: The request sent by the client was syntactically incorrect.</u></p><HR size="1" noshade="noshade"><h3>JBoss Web/7.4.0.Final</h3></body></html>
+后台请求地址为>https://101.231.204.80:5000/gateway/api/appTransReq.do
+后台返回结果为>defaultPayType=0001&txnType=01&respCode=11&frontUrl=http://localhost:8085/upacp_sdk_php/demo/utf8/FrontReceive.php&channelType=08&currencyCode=156&merId=888888888888888&txnSubType=01&txnAmt=100&version=5.0.0&signMethod=01&backUrl=http://114.82.43.123/upacp_sdk_php/demo/utf8/BackReceive.php&certId=68759585097&encoding=utf-8&respMsg=[9100004]Signature verification failed&reqReserved= 透传信息&bizType=000201&signature=ikRR+kibypgZBWxyKsVInKNAkk29FXzIa3ngtIskWaO1iUg0qrAl+SuDBYshfEhJfvRYHyW37SN6MqWE4fXR1cHqpGUZUseG66IDTtQGJ5PD6lr8E+Os5rFNvFKuXtw3531DmB65M0q1r6+yXZWlHBmtkgy1SVXN15fnNFgXjo7wmBniaOn7p5SSgaZbCAXzIm4QJY1H/eqSKboP+rjmmjNlppNMwbeO75cOL/BfVeCIvsrU1mH1+C3a+6i/sC/VJZyhjlg3Gt749qXFNaTp5FGJLptQPp2lwtZttbZNfIyrwvmkiJcs0j2H+r0OvM8h0Pm2uT7bbqnrT4WI4xHj3A==&orderId=20151215123816&txnTime=20151215123816&accessType=0

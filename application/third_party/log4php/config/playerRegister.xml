@@ -1,0 +1,12 @@
+<configuration xmlns="http://logging.apache.org/log4php/">
+    <appender name="default" class="LoggerAppenderDailyFile">
+        <param name="file" value="/Applications/XAMPP/xamppfiles/htdocs/BI/application/logs/register/playerRegister_%s.log" />
+        <param name="datePattern" value="Y-m-d.H" />
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%msg%n" />
+        </layout>
+    </appender>
+    <root>
+        <appender_ref ref="default" />
+    </root>
+</configuration>
